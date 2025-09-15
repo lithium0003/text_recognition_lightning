@@ -10,7 +10,7 @@ import logging
 import os
 from omegaconf import DictConfig
 from pytorch_lightning import Callback, LightningDataModule, LightningModule, Trainer
-from pytorch_lightning.loggers import LightningLoggerBase
+from pytorch_lightning.loggers import Logger as LightningLoggerBase
 from PIL import Image
 import pandas as pd
 

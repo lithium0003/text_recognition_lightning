@@ -5,7 +5,7 @@ dataset:
     - dataset_class: cli
 
 batch_size: 128
-num_workers: 1
+num_workers: 0
 pin_memory: True
 batch_max_length: 40
 test_batch_max_length: 160
